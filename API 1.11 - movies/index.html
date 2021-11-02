@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://ae01.alicdn.com/kf/Hb6da4baeee374a699a21881731da8a62P.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+      #sectionDitels {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      #imgGif{
+          margin-left: 10%;
+          padding: 5%;
+      }
+      .card{
+          background-image: url("https://cache.bankleumi.co.il/Loyalty/40656_48ea83a2-29e5-4d70-9c18-c3a0538f3268.jpg");
+          width: 30%;
+          background-color: rgb(243, 191, 131) ; 
+          margin: 1%;
+          text-align: center;
+          border: black solid 1.8px;
+          box-shadow: rgb(90, 88, 88) 10px 10px 10px;
+          /* opacity: 0.7; */
+      }
+      .imgMovie{
+          transform: 2s;
+      }
+      /* span{
+          background-color: rgb(49, 16, 16);
+          opacity: 0.7;
+      } */
+      .imgMovie:hover{
+          opacity: 0.7;
+
+      }
+      .card.background{
+          opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body id="body">
+      <h2> movie </h2>
+    <input id="input" type="text" />
+    <button id="btn">search</button>
+    <section id="sectionDitels"></section>
+    <script src="main.js"></script>
+  </body>
+</html>
