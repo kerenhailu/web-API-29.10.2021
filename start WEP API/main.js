@@ -211,7 +211,7 @@ function printDitelsToObject(object) {
 //   }
 // }
 // returnOpt2()
-
+// יי
 // ===========================================================13
 // 13.	צרו פונקציה אסיכרונית ששולחת בקשת POST עם אובייקט ל API של users.
 // const user3={
@@ -288,3 +288,25 @@ async function inputReturn(addressAPI){
 btn.onclick=()=>{
 inputReturn(API.value)}
 // ===========================================================
+//!תשובה לשאלה במבחן
+//!פונקציה אסינכרונית עם fetch
+// function apiPromise(api) {
+//   return new Promise((resolve,reject)=>{
+//     fetch(api).then(res=>res.json())
+//   .then(res=>{
+//     res(.data).length>0?resolve(res):reject({massage:"error"})
+//   })
+//   })
+// }
+// async function getDataFromApi(api) {
+//   try{
+//     return await apiPromise(api)
+
+//   }
+//   catch(err){
+//     return err
+//   }
+// }
+// getDataFromApi(`api`) 
+
+
